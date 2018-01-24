@@ -1,0 +1,235 @@
+@charset "UTF-8";
+
+//ボタンの背景設定
+%btnbak {
+	background:-webkit-linear-gradient(135deg, #404040, #111111);
+	background:-moz-linear-gradient(135deg, #404040, #111111);
+	background:-o-linear-gradient(135deg, #404040, #111111);
+	background:linear-gradient(135deg, #404040, #111111);
+	background-color : #111111;
+	color : #fff;
+	-webkit-transition: all 0.35s ease;
+	transition: all 0.35s ease;
+	&:hover {
+		background-color : #111111;
+		color : #fff;
+		background : #404040;
+		//background:linear-gradient(45deg, #ccc, #404040);
+
+	}
+}
+
+%btnbak2 {
+	background:-webkit-linear-gradient(135deg, #f0efef, #cdcdcd);
+	background:-moz-linear-gradient(135deg, #f0efef, #cdcdcd);
+	background:-o-linear-gradient(135deg, #f0efef, #cdcdcd);
+	background:linear-gradient(135deg, #f0efef, #cdcdcd);
+	background-color : #111111;
+	color : #333333;
+}
+
+
+//ベースの背景色（実際はフッターの色になります）
+$b_bg : rgba(0,0,0,1);
+
+//ベースの文字色／フォントサイズ／行の高さ
+$b_font : rgba(51,51,51,1);
+$b_tsize : 18px;
+$b_tsize_sp: 16px;
+$b_lineheight : 1.8;
+
+//ベースのリンク色
+$b_a : rgba(51,51,51,1);
+$b_a_hover : rgba(51,51,51,0.5);
+
+//ヘッダー
+$head_bak : transparent;//rgba(0,0,0,1);
+$head_logo : url(../img/logo-01.svg);
+$head_logo_w : auto;
+$head_logo_h : 60px;
+
+$sp_head_bak : rgba(0,0,0,1);
+$sp_head_logo : url(../img/logo-01.svg);
+$sp_head_logo_w : auto;
+$sp_head_logo_h : 60px;
+
+//メニュー
+$ham_color1 : rgba(255,255,255,1);  //ハンバーガーメニューの色（メインビジュアルの時）
+$ham_color2 : rgba(255,255,255,1);  //ハンバーガーメニューの色（通常時）
+$ham_color3 : rgba(0,0,0,1);  //ハンバーガーメニューの色（閉じる）
+
+$menu_bak : rgba(246,246,246,1);
+%menu_link {
+	font-size : 18px;
+	font-weight : bold;
+	font-family:Helvetica;
+	color : rgba(51,51,51,1);
+	display : inline-block;
+	-webkit-transition: all 0.35s ease;
+	transition: all 0.35s ease;
+	&:after {
+		content : "";
+		width : 16px;
+		height : 2px;
+		display : block;
+		background : rgba(129,129,129,1);
+		-webkit-transition: all 0.35s ease;
+		transition: all 0.35s ease;
+	}
+	&:hover {
+		color : rgba(51,51,51,0.5);
+		&:after {
+			width : 100%;
+			background : rgba(129,129,129,0.5);
+		}
+	}
+}
+
+//見出し画像のサイズ
+$timg_width : 480px;
+
+
+//フッターのリンク色
+$f_color : rgba(255,255,255,1);
+$f_a : rgba(255,255,255,1);
+$f_a_hover : rgba(255,255,255,0.5);
+
+
+//ページブロック背景色パターン
+%bg1 {
+	background : rgba(255,255,255,1);
+}
+%bg2 {
+	background : rgba(249,249,249,1);
+}
+
+%bg3 {
+	background : rgba(209,209,209,1);
+}
+%bg4 {
+	background : rgba(109,159,209,1);
+}
+%bg5 {
+	background : rgba(104,87,19,1);
+}
+%bg6 {
+	background : rgba(68,102,34,1);
+}
+%bg7 {
+	background : rgba(51,51,51,1);
+}
+%bg8 {
+	background : rgba(0,0,0,1);
+}
+%bg9 {
+	background : rgba(93,23,23,1);
+}
+
+
+//ブロック見出し設定
+%blo_title {
+	//margin-bottom : 40px;
+	text-align : center;
+	span.large {
+		display : block;
+		font-size : 24px;
+		// font-family : "Lato";
+		font-weight : 500;
+	}
+	span.small {
+		display : block;
+		font-size : 10px;
+		font-weight : 500;
+	}
+}
+
+//テーブル設定
+%tbl_style1 {
+	display : table-cell;
+	padding : 20px;
+	box-sizing : border-box;
+	background : rgba(239,239,239,1);
+	border : 1px solid rgba(255,255,255,1);
+}
+
+%tbl_style2 {
+	display : table-cell;
+	padding : 20px;
+	box-sizing : border-box;
+	background : rgba(255,255,255,1);
+	border : 1px solid rgba(1,1,1,1);
+}
+
+//アクセスのテーブル
+%tbl_styleac {
+	max-width : 680px;
+	border-collapse: collapse;
+	margin : 0 auto;
+	padding-top : 48px;
+	&:first-child {
+		padding-top : 0;
+	}
+	.FooterAccessRow {
+		display : table-row;
+		width : 100%;
+		font-size : 13px;
+		@media(max-width:799px) {
+			display : block;
+			margin-top : 8px;
+			&:first-child {
+				margin-top : 0;
+			}
+		}
+	}
+	.FooterAccessTh {
+		width : 20%;
+		display : table-cell;
+		padding : 8px 0;
+		box-sizing : border-box;
+		font-weight : 500;
+		@media(max-width:799px) {
+			width : 100%;
+			display : block;
+			border-bottom : 0;
+			padding-bottom : 0;
+			text-align : left;
+		}
+	}
+	.FooterAccessTd {
+		width : 80%;
+		display : table-cell;
+		padding : 8px 0;
+		box-sizing : border-box;
+		@media(max-width:799px) {
+			width : 100%;
+			display : block;
+			border-top : 0;
+			padding-top : 8px;
+		}
+	}
+}
+
+
+	
+//ブログ設定
+%blbg {
+	background : #fff;
+}
+
+//Newマーク
+%newmark {
+	width : 24px;
+	height : 24px;
+	font-size : 8px;
+	text-align : center;
+	color : #fff;
+	font-weight : 500;
+	line-height : 24px;
+	background : #e40000;
+	border-radius : 24px;
+	font-family: 'Lato';
+	font-style: italic;
+	letter-spacing: -0.06px;
+}
+
+@import "reset", "base", "header", "top", "pagebody", "blog", "footer"

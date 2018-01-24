@@ -1,0 +1,202 @@
+@font-face {
+	font-family: 'Icon';
+	src:  url('../fonts/fontawesome-webfont.eot?4l0ac5');
+	src:  url('../fonts/fontawesome-webfont.eot?4l0ac5#iefix') format('embedded-opentype'),
+		url('../fonts/fontawesome-webfont.ttf?4l0ac5') format('truetype'),
+		url('../fonts/fontawesome-webfont.woff?4l0ac5') format('woff'),
+		url('../fonts/fontawesome-webfont.woff2?4l0ac5') format('woff2'),
+		url('../fonts/fontawesome-webfont.svg?4l0ac5#ico_sn') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'IconEX';
+	src:  url('../fonts/ico_ex.eot?4l0avs');
+	src:  url('../fonts/ico_ex.eot?4l0avs#iefix') format('embedded-opentype'),
+		url('../fonts/ico_ex.ttf?4l0avs') format('truetype'),
+		url('../fonts/ico_ex.woff?4l0avs') format('woff'),
+		url('../fonts/ico_ex.woff2?4l0avs') format('woff2'),
+		url('../fonts/ico_ex.svg?4l0avs#ico_sn') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/qdgUG4U09HnJwhYI-uK18wLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/RYyZNoeFgb0l7W3Vu1aSWOvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYELO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 300;
+    src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.woff) format('woff'), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 500;
+    src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.woff) format('woff'), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 700;
+    src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.woff) format('woff'), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Serif Japanese';
+  font-style: normal;
+  font-weight: 100;
+  src: url(../fonts/NotoSerifCJKjp/NotoSerifCJKjp-ExtraLight-subset.woff2) format('woff2');
+  src: url(../fonts/NotoSerifCJKjp/NotoSerifCJKjp-ExtraLight-subset.woff) format('woff');
+}
+@font-face {
+  font-family: 'Noto Serif Japanese';
+  font-style: normal;
+  font-weight: 200;
+  src: url(../fonts/NotoSerifCJKjp/NotoSerifCJKjp-Light-subset.woff2) format('woff2');
+  src: url(../fonts/NotoSerifCJKjp/NotoSerifCJKjp-Light-subset.woff) format('woff');
+}
+@font-face {
+  font-family: 'Noto Serif Japanese';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/NotoSerifCJKjp/NotoSerifCJKjp-Regular-subset.woff2) format('woff2');
+  src: url(../fonts/NotoSerifCJKjp/NotoSerifCJKjp-Regular-subset.woff) format('woff');
+ }
+@font-face {
+  font-family: 'Noto Serif Japanese';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/NotoSerifCJKjp/NotoSerifCJKjp-Medium-subset.woff2) format('woff2');
+  src: url(../fonts/NotoSerifCJKjp/NotoSerifCJKjp-Medium-subset.woff) format('woff');
+}
+@font-face {
+  font-family: 'Noto Serif Japanese_tt';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/NotoSerifCJKjp/NotoSerifCJKjp-Medium-subset_tt.woff2) format('woff2');
+  src: url(../fonts/NotoSerifCJKjp/NotoSerifCJKjp-Medium-subset_tt.woff) format('woff');
+ }
+@font-face {
+  font-family: 'Noto Serif Japanese';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/NotoSerifCJKjp/NotoSerifCJKjp-SemiBold-subset.woff2) format('woff2');
+  src: url(../fonts/NotoSerifCJKjp/NotoSerifCJKjp-SemiBold-subset.woff) format('woff');
+ }
+@font-face {
+   font-family: 'Noto Serif Japanese';
+   font-style: normal;
+   font-weight: 700;
+  src: url(../fonts/NotoSerifCJKjp/NotoSerifCJKjp-Bold-subset.woff2) format('woff2');
+  src: url(../fonts/NotoSerifCJKjp/NotoSerifCJKjp-Bold-subset.woff) format('woff');
+ }
+@font-face {
+  font-family: 'Noto Serif Japanese';
+  font-style: normal;
+  font-weight: 900;
+  src: url(../fonts/NotoSerifCJKjp/NotoSerifCJKjp-Black-subset.woff2) format('woff2');
+  src: url(../fonts/NotoSerifCJKjp/NotoSerifCJKjp-Black-subset.woff) format('woff');
+ }
+
+html {  
+	overflow-y:scroll;  
+}
+body {
+	color: $b_font;
+	font-size : $b_tsize;
+	line-height : $b_lineheight;
+  letter-spacing: 0.1em;
+	font-family : 'Noto Sans Japanese' , sans-serif;
+	font-weight : 300;
+	background : $b_bg;
+	-webkit-text-size-adjust: 100%;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	line-break: strict;
+  @media(max-width:799px) {
+    font-size: $b_tsize_sp;
+  }
+}
+
+a:link, a:visited {
+	color: $b_a;
+	text-decoration : none;
+	-webkit-transition: all 0.35s ease;
+	transition: all 0.35s ease;
+}
+
+a:hover, a:visited:hover {
+	color: $b_a_hover;
+	text-decoration : none;
+}
+
+.bg1 { @extend %bg1; }
+.bg2 { @extend %bg2; }
+.bg3 { @extend %bg3; }
+.bg4 { @extend %bg4; }
+.bg5 { @extend %bg5; }
+.bg6 { @extend %bg6; }
+.bg7 { @extend %bg7; }
+.bg8 { @extend %bg8; }
+.bg9 { @extend %bg9; }
+// .bg6 { @extend %btnbak; }
+
+
+#wrap {
+	width : 100%;
+}
+
+.Inner {
+	max-width : 1080px;
+	box-sizing : border-box;
+	padding : 0 70px;
+	margin : 0 auto;
+
+	@media(max-width:799px) {
+		padding : 0 16px;
+	}
+}
+
+
+.clearfix:after	{
+	content: ".";
+	display: block;
+	height: 0;
+	margin : 0;
+	padding : 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix	{ display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix	{ height: 1%;}
+
+.clearfix	{ display: block;}
+/* End hide from IE-mac */
